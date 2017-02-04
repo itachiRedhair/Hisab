@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rogue.test.dividenrule.EventEditFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Name:"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/event_name_editview"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <Button
+        android:id="@+id/event_edit_date_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Set a Date"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/add_person_button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="+add Person"
+        android:layout_gravity="right"/>
+
+    <ListView
+        android:id="@+id/event_edit_person_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="afterDescendants"></ListView>
+
+</LinearLayout>

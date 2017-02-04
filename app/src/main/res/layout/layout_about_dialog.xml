@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+        This app is made by Rogue Redhair\n
+        Instructions to use the app:\n
+        1.Swipe from left and open the drawer\n
+        2.Select People\n
+        3.Add an individual's name by clicking on top right corner and click on done\n
+        4.Come back to dashboard\n
+        5.Click on top right corner\n
+        6.In add event window enter event details and click done\n
+        7.You can view quick details in dashboard itself\n
+        "
+        android:gravity="center"/>
+    </LinearLayout>
