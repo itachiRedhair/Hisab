@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Hisab.iml" filepath="$PROJECT_DIR$/Hisab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Hisab.iml" filepath="$PROJECT_DIR$/.idea/Hisab.iml" />
+      <module fileurl="file://E:\Workspace\Android Studio\Hisab\Hisab.iml" filepath="E:\Workspace\Android Studio\Hisab\Hisab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>
